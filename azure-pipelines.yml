@@ -9,7 +9,15 @@ trigger:
 pool:
   name: default
 
+
 steps:
-- task: DotNetCoreCLI@2
+- task: UseDotNet@2
   inputs:
-    command: 'build'
+    packageType: 'sdk'
+    version: '7.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- script: |
+    cd HelloWorldApp
+    dotnet build HelloWorldApp.csproj --configuration Release
+  displayName: 'Build .NET Project'
