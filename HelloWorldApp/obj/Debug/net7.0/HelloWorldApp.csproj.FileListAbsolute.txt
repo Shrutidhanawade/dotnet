@@ -1,0 +1,15 @@
+/myagent/_work/_temp/HelloWorldApp/bin/Debug/net7.0/HelloWorldApp
+/myagent/_work/_temp/HelloWorldApp/bin/Debug/net7.0/HelloWorldApp.deps.json
+/myagent/_work/_temp/HelloWorldApp/bin/Debug/net7.0/HelloWorldApp.runtimeconfig.json
+/myagent/_work/_temp/HelloWorldApp/bin/Debug/net7.0/HelloWorldApp.dll
+/myagent/_work/_temp/HelloWorldApp/bin/Debug/net7.0/HelloWorldApp.pdb
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.csproj.AssemblyReference.cache
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.AssemblyInfoInputs.cache
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.AssemblyInfo.cs
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.csproj.CoreCompileInputs.cache
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.dll
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/refint/HelloWorldApp.dll
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.pdb
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/HelloWorldApp.genruntimeconfig.cache
+/myagent/_work/_temp/HelloWorldApp/obj/Debug/net7.0/ref/HelloWorldApp.dll
