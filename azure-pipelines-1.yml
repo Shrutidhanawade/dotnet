@@ -1,0 +1,31 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  name: azure-first project
+
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '7.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- script: |
+    cd HelloWorldApp
+    dotnet build HelloWorldApp.csproj --configuration Release
+  displayName: 'Build .NET Project'
+
+    # Run Unit Tests
+- task: DotNetCoreCLI@2
+  inputs:
+      command: 'test'
+      projects: 'HelloWorldApp/HelloWorldApp.csproj'  # Path to your test project (.csproj)
+      arguments: '--configuration Release --no-build'  # Optional: specify Release configuration and skip build if already built
+      echo: 'Run Unit Tests'
